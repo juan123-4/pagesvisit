@@ -1,0 +1,61 @@
+body{
+    background-image: url("https://services.meteored.com/img/article/-por-que-las-nubes-no-se-caen--7332-1_512.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: auto;
+    height: auto;}
+
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    color: blue;
+    border-radius: 12px;
+    width: 300px;}
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;}
+
+
+    
+#btnReestablecer{
+    transition: transform 0.3s ease-in-out; 
+    animation: float 4s ease-in-out infinite;
+    border-radius: 12px;
+    width: 300px;
+    color: blue;
+    background-color: white;}
+
+    @keyframes float { 
+    0% { transform: translateY(0); } 
+    50% { transform: translateY(-15px); }
+    100% { transform: translateY(0);} }
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;}
+
+
+h1{
+    transition: transform 0.3s ease-in-out; 
+    animation: floatone 4s ease-in-out infinite;}
+
+    @keyframes floatone { 
+    0% { transform: translatex(0); } 
+    50% { transform: translatex(-15px); }
+    100% { transform: translatex(0);} }
+
+
+ p{
+    transition: transform 0.3s ease-in-out;
+    animation: floattwo 4s ease-in-out infinite;
+    border-radius: 12px;
+    width: 670px;
+    color: white;}
+
+    @keyframes floattwo { 
+    0% { background-color: blue; } 
+    50% { background-color:black;}
+    100% { background-color: purple;}}
